@@ -1,6 +1,7 @@
 import "./app.scss";
 import SearchBar from "./components/searchBar/SearchBar";
 import BarResult from "./components/barResults/BarResult";
+import Map from "./components/map/Map";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<h1 className="title-hero">IP Adress Tracker</h1>
 			<SearchBar />
 			<BarResult />
+			<Map />
 		</div>
 	);
 }
