@@ -1,0 +1,46 @@
+.searchBar {
+    margin: 0 auto;
+
+    max-width: 40rem;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    &>form {
+        width: 90%;
+        margin: 2rem 0 2rem 2rem;
+    }
+
+    &>form>input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.2rem;
+        color: hsl(0, 0%, 17%);
+        font-weight: 500;
+        outline: none;
+    }
+
+    &>form>input::placeholder {
+        color: var(--dark-gray);
+    }
+
+    &>button {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid black;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: black;
+        cursor: pointer;
+        outline: none;
+    }
+}
