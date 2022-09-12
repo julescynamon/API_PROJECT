@@ -13,7 +13,7 @@ import IpContext from '../../context/IpContext';
 
 import iconmonstrlocation from '../../assets/images/icon-location.svg';
 import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
+// import 'leaflet/dist/leaflet.css';
 
 const markerIcon = new L.Icon({
     iconUrl: iconmonstrlocation,

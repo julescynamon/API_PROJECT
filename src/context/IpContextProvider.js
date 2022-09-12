@@ -20,9 +20,9 @@ const IpContextProvider = (props) => {
             let url;
         
             if (ip) {
-            url = `https://geo.ipify.org/api/v1?apiKey=${process.env.REACT_APP_API_KEY}&ipAddress=${ip}&domain=${ip}`;
+                url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_jZPZnMDILWs9Z38U6nwjH4kiyjZsN&ipAddress=${ip}`;
             } else {
-            url = `https://geo.ipify.org/api/v1?apiKey=${process.env.REACT_APP_API_KEY}`;
+                url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_jZPZnMDILWs9Z38U6nwjH4kiyjZsN`;
             }
             const fetchData = async () => {
             const res = await fetch(url);

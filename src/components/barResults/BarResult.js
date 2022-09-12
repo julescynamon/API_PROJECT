@@ -11,7 +11,7 @@ export default function BarResult() {
 
     useEffect(() => {
         searchIP();
-    }, [searchIP]);
+    }, []);
 
 
 
